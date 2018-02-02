@@ -1,18 +1,22 @@
 .page {
     margin: 0;
+
     font-family: Arial, Helvetica, sans-serif;
+
     background: #f6f5f3;
 }
 
 .container {
     width: 1000px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .header {
     position: relative;
     z-index: 100;
+
     padding: 14px 0;
+
     border-bottom: 1px solid #ccc;
     background: #fff;
 
@@ -24,15 +28,21 @@
 }
 
 .logo {
-    color: #000;
+    font-size: 120%;
     text-decoration: none;
+
+    color: #000;
 
     &__icon {
         display: inline-block;
-        width: 30px;
-        height: 25px;
+
+        width: 50px;
+        height: 42px;
+        margin-right: 10px;
+
         vertical-align: middle;
-        background: url(i/logo.svg);
+
+        background: url(i/logo.svg) no-repeat;
     }
 }
 
@@ -41,24 +51,23 @@
     height: 38px;
     padding: 0 8px;
 
-    border: 2px solid #e8e8e8;
-
     font-size: 15px;
     line-height: 38px;
 
+    border: 2px solid #e8e8e8;
     -webkit-appearance: none;
 }
 
 .button {
     padding: 0 12px;
-    border: none;
-    border-radius: 3px;
-
-    background: #e8e8e8;
 
     font-size: 15px;
     line-height: 38px;
+
     color: #202020;
+    border: none;
+    border-radius: 3px;
+    background: #e8e8e8;
 }
 
 .search__button {
@@ -69,6 +78,7 @@
 .avatar {
     width: 40px;
     height: 40px;
+
     border-radius: 50%;
 }
 
@@ -80,7 +90,7 @@
     border-bottom: 1px solid #ccc;
 
     background: #fff;
-    box-shadow: 0 0 50px 10px rgba(0,0,0,.05);
+    box-shadow: 0 0 50px 10px rgba(0, 0, 0, .05);
 
     &__list {
         display: flex;
@@ -92,8 +102,9 @@
     &__item {
         font-size: 13px;
         line-height: 50px;
-        color: gray;
         text-decoration: none;
+
+        color: gray;
 
         &:hover {
             color: red;
@@ -104,6 +115,7 @@
 .promo {
     display: flex;
     justify-content: space-between;
+
     margin-bottom: 14px;
 }
 
@@ -111,14 +123,14 @@
     background: #f8f8f8;
 
     &__inner {
-        padding-top: 30px;
-        padding-bottom: 10px;
+        padding: 30px 0 10px;
     }
 }
 
 .heading {
-    font-weight: 500;
     margin: 0 0 12px;
+
+    font-weight: 500;
 }
 
 .goods {
@@ -132,12 +144,11 @@
     margin-bottom: 17px;
     padding: 17px;
 
-    background: #fff;
-    box-shadow: 0 1px 3px rgba(0,0,0,.28);
-
     text-align: center;
 
     cursor: pointer;
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,.28);
 
     &__headline {
         position: relative;
@@ -146,13 +157,14 @@
 
         font-size: 10px;
         line-height: 15px;
-        color: #404040;
         text-transform: uppercase;
+
+        color: #404040;
 
         &:after {
             position: absolute;
-            left: 17px;
             bottom: 5px;
+            left: 17px;
 
             width: calc(100% - 34px);
 
@@ -171,8 +183,9 @@
 
         font-size: 11px;
         line-height: 13px;
-        color: #7f7f7f;
         text-decoration: none;
+
+        color: #7f7f7f;
 
         &:hover {
             color: red;
@@ -181,14 +194,13 @@
 
     &__title {
         display: block;
+        overflow: hidden;
 
         max-width: 80%;
         margin: auto;
-        overflow: hidden;
 
         font-size: 15px;
         line-height: 1.4em;
-
         white-space: nowrap;
         text-overflow: ellipsis;
         text-decoration: none;
@@ -205,13 +217,13 @@
         padding-top: 17px;
 
         font-size: 15px;
-        line-height: 17px;
         font-weight: bold;
+        line-height: 17px;
 
         &:before {
             position: absolute;
-            left: 17px;
             top: 0;
+            left: 17px;
 
             width: calc(100% - 34px);
 
@@ -226,15 +238,14 @@
     display: block;
 
     width: 100%;
-    border: none;
-    border-radius: 3px;
-
-    background-color: #ffdb4d;
 
     font: inherit;
     line-height: 60px;
     text-align: center;
 
+    border: none;
+    border-radius: 3px;
+    background: #ffdb4d;
     -webkit-appearance: none;
 }
 
@@ -244,7 +255,7 @@
 
     line-height: 34px;
 
-    background-color: #e4eeff;
+    background: #e4eeff;
 }
 
 .history__list {
@@ -260,11 +271,11 @@
     width: 242px;
     height: 115px;
 
-    background: #fff;
-
     font-size: 13px;
     text-decoration: none;
+
     color: #669;
+    background: #fff;
 
     &__cell {
         padding-left: 12px;
@@ -272,17 +283,20 @@
 
     &__price {
         display: block;
-        color: #000;
+
         font-weight: bold;
+
+        color: #000;
     }
 }
 
 .footer {
     margin-top: 50px;
     padding: 12px 0;
-    border-top: 1px solid #ccc;
 
     font-size: 13px;
+
+    border-top: 1px solid #ccc;
 
     &__inner {
         display: flex;
