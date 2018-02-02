@@ -9,19 +9,22 @@
 </head>
 <body class="page">
     <header class="header">
-        <div class="header__inner">
-            <a href="/" class="logo">БЭМагазин</a>
+        <div class="header__inner container">
+            <a href="/" class="logo">
+                <span class="logo__icon"></span>
+                БЭМагазин
+            </a>
             <form action="/" class="search">
-                <input type="search" class="input">
-                <input type="text" class="button" value="Найти">
+                <input class="input" type="search"><input
+                    class="button search__button" type="button" value="Найти">
             </form>
             <div class="user">
-                <div class="avatar"></div>
+                <img class="avatar" src="https://avatars1.githubusercontent.com/u/475746?s=460&v=4">
             </div>
         </div>
     </header>
     <nav class="nav">
-        <ul class="nav__list">
+        <ul class="nav__list container">
             <a href="#" class="nav__item">Электроника</a>
             <a href="#" class="nav__item">Компьютеры</a>
             <a href="#" class="nav__item">Бытовая техника</a>
@@ -33,69 +36,135 @@
         </ul>
     </nav>
     <div class="body">
-        <div class="body__inner">
-            <div class="promo">
-                <a href="#promo1" class="promo__item">
-                    <img class="promo__item-image" src="http://via.placeholder.com/256x356" alt="">
-                </a>
-                <a href="#promo2" class="promo__item">
-                    <img class="promo__item-image" src="http://via.placeholder.com/256x356" alt="">
-                </a>
-                <a href="#promo3" class="promo__item promo__item_big">
-                    <img class="promo__item-image" src="http://via.placeholder.com/400x356" alt="">
-                </a>
-            </div>
-            <main class="main">
+        <div class="promo container">
+            <a href="#promo1" class="promo__item">
+                <img class="promo__item-image" src="http://via.placeholder.com/256x356" alt="">
+            </a>
+            <a href="#promo2" class="promo__item">
+                <img class="promo__item-image" src="http://via.placeholder.com/256x356" alt="">
+            </a>
+            <a href="#promo3" class="promo__item promo__item_big">
+                <img class="promo__item-image" src="http://via.placeholder.com/400x356" alt="">
+            </a>
+        </div>
+        <main class="main">
+            <div class="main__inner container">
                 <h2 class="heading">Приглядитесь к этим предложениям</h2>
                 <div class="goods">
                     <div class="snippet">
                         <div class="snippet__headline">Рекомендуем</div>
                         <img src="http://placeimg.com/180/180/tech?1" alt="" class="snippet__image">
-                        <a href="" class="snippet__category"></a>
-                        <a href="" class="snippet__title"></a>
-                        <div href="" class="snippet__price"></div>
+                        <a href="" class="snippet__category">Ноутбуки</a>
+                        <a href="" class="snippet__title">Apple MacBook Pro 13 with Retina display Early 2015</a>
+                        <div class="snippet__price">от 84 999 ₽</div>
                     </div>
                     <div class="snippet">
                         <div class="snippet__headline">Хит продаж</div>
                         <img src="http://placeimg.com/180/180/tech?2" alt="" class="snippet__image">
-                        <a href="" class="snippet__category"></a>
-                        <a href="" class="snippet__title"></a>
-                        <div href="" class="snippet__price"></div>
+                        <a href="" class="snippet__category">VoIP-оборудование</a>
+                        <a href="" class="snippet__title">VoIP-телефон Yealink SIP-T21 E2</a>
+                        <div class="snippet__price">от 2 796 ₽</div>
                     </div>
                     <div class="snippet">
                         <div class="snippet__headline">Товар недели</div>
                         <img src="http://placeimg.com/180/180/tech?3" alt="" class="snippet__image">
-                        <a href="" class="snippet__category"></a>
-                        <a href="" class="snippet__title"></a>
-                        <div href="" class="snippet__price"></div>
+                        <a href="" class="snippet__category">Лампочки</a>
+                        <a href="" class="snippet__title">Лампа ASD E27 11Вт 4000K</a>
+                        <div class="snippet__price">от 53 ₽</div>
                     </div>
                     <div class="snippet">
                         <div class="snippet__headline">Скидки до <span class="snippet__headline-highlight">-18%</span></div>
                         <img src="http://placeimg.com/180/180/tech?5" alt="" class="snippet__image">
                         <a href="" class="snippet__category">Тюбинги</a>
                         <a href="" class="snippet__title">Тюбинг Small Rider Space Race</a>
-                        <div href="" class="snippet__price">от 1 890 ₽</div>
+                        <div class="snippet__price">от 1 890 ₽</div>
+                    </div>
+
+                    <div class="snippet">
+                        <div class="snippet__headline">Рекомендуем</div>
+                        <img src="http://placeimg.com/180/180/tech?6" alt="" class="snippet__image">
+                        <a href="" class="snippet__category">Ноутбуки</a>
+                        <a href="" class="snippet__title">Apple MacBook Pro 13 with Retina display Early 2015</a>
+                        <div class="snippet__price">от 84 999 ₽</div>
+                    </div>
+                    <div class="snippet">
+                        <div class="snippet__headline">Хит продаж</div>
+                        <img src="http://placeimg.com/180/180/tech?7" alt="" class="snippet__image">
+                        <a href="" class="snippet__category">VoIP-оборудование</a>
+                        <a href="" class="snippet__title">VoIP-телефон Yealink SIP-T21 E2</a>
+                        <div class="snippet__price">от 2 796 ₽</div>
+                    </div>
+                    <div class="snippet">
+                        <div class="snippet__headline">Товар недели</div>
+                        <img src="http://placeimg.com/180/180/tech?8" alt="" class="snippet__image">
+                        <a href="" class="snippet__category">Лампочки</a>
+                        <a href="" class="snippet__title">Лампа ASD E27 11Вт 4000K</a>
+                        <div class="snippet__price">от 53 ₽</div>
+                    </div>
+                    <div class="snippet">
+                        <div class="snippet__headline">Скидки до <span class="snippet__headline-highlight">-18%</span></div>
+                        <img src="http://placeimg.com/180/180/tech?9" alt="" class="snippet__image">
+                        <a href="" class="snippet__category">Тюбинги</a>
+                        <a href="" class="snippet__title">Тюбинг Small Rider Space Race</a>
+                        <div class="snippet__price">от 1 890 ₽</div>
                     </div>
                 </div>
-                <div class="more">Показать еще</div>
-            </main>
-            <div class="subscribe">
-                Узнавайте о выгодных предложениях и получайте личные рекомендации
+                <button href="#" class="more">Показать ещё</button>
             </div>
-            <div class="history">
-                <h2 class="heading">Вы смотрели</h2>
-                ...
-            </div>
-            <div class="links">
-                Ссылки
+        </main>
+        <div class="subscribe">
+            <div class="container">Узнавайте о выгодных предложениях и получайте личные рекомендации</div>
+        </div>
+        <div class="history container">
+            <h2 class="heading">Вы смотрели</h2>
+
+            <div class="history__list">
+                <a href="#" class="small-snippet">
+                    <span class="small-snippet__cell">
+                        <img class="small-snippet__image" src="http://placeimg.com/50/50/tech?16" alt="">
+                    </span>
+                    <span class="small-snippet__cell">
+                        <span class="small-snippet__title" href="">Apple MacBook Pro 13 with Retina display Early 2015</span>
+                        <span class="small-snippet__price">от 84 999 ₽</span>
+                    </span>
+                </a>
+                <a href="#" class="small-snippet">
+                    <span class="small-snippet__cell">
+                        <img class="small-snippet__image" src="http://placeimg.com/50/50/tech?17" alt="">
+                    </span>
+                    <span class="small-snippet__cell">
+                        <span class="small-snippet__title" href="">Apple MacBook Pro 13 with Retina display Early 2015</span>
+                        <span class="small-snippet__price">от 84 999 ₽</span>
+                    </span>
+                </a>
+                <a href="#" class="small-snippet">
+                    <span class="small-snippet__cell">
+                        <img class="small-snippet__image" src="http://placeimg.com/50/50/tech?18" alt="">
+                    </span>
+                    <span class="small-snippet__cell">
+                        <span class="small-snippet__title" href="">Apple MacBook Pro 13 with Retina display Early 2015</span>
+                        <span class="small-snippet__price">от 84 999 ₽</span>
+                    </span>
+                </a>
+                <a href="#" class="small-snippet">
+                    <span class="small-snippet__cell">
+                        <img class="small-snippet__image" src="http://placeimg.com/50/50/tech?19" alt="">
+                    </span>
+                    <span class="small-snippet__cell">
+                        <span class="small-snippet__title" href="">Apple MacBook Pro 13 with Retina display Early 2015</span>
+                        <span class="small-snippet__price">от 84 999 ₽</span>
+                    </span>
+                </a>
             </div>
         </div>
     </div>
     <footer class="footer">
-            Мобильная версия
-            Статистика
-            Реклама
-            © 2018  ООО «Яндекс.Маркет»
+        <div class="footer__inner container">
+            <a href="#" class="link footer__item">Мобильная версия</a>
+            <a href="#" class="link footer__item">Статистика</a>
+            <a href="#" class="link footer__item">Реклама</a>
+            <span class="footer__item">© 2018  ООО «<a href="#" class="link">Яндекс.Маркет</a>»</span>
+        </div>
     </footer>
 </body>
 </html>
