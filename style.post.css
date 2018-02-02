@@ -1,0 +1,40 @@
+.page {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    border-bottom: 1px solid #ccc;
+
+    &__inner {
+        width: 1000px;
+        margin: auto;
+    }
+}
+
+.nav {
+    border-bottom: 1px solid #ccc;
+
+    &__inner {
+        width: 1000px;
+        margin: auto;
+    }
+}
+
+.body__inner {
+    width: 1000px;
+    margin: auto;
+}
+
+.goods {
+    display: flex;
+}
+
+.snippet {
+    width: 234px;
+
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,.28);
+
+    text-align: center;
+}

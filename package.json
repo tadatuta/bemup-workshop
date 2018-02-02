@@ -1,0 +1,21 @@
+{
+  "name": "market",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "postcss style.post.css -o style.css -w",
+    "sync": "browser-sync start --server --files 'style.css'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^7.2.5",
+    "browser-sync": "^2.23.5",
+    "postcss": "^6.0.16",
+    "postcss-cli": "^4.1.1",
+    "postcss-nested": "^3.0.0"
+  }
+}
