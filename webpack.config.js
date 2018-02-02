@@ -1,13 +1,13 @@
 module.exports = {
-    entry: './main',
+  entry: './main',
 
-    output: {
-      filename: 'bundle.js'
-    },
+  output: {
+    filename: 'bundle.js'
+  },
 
-    module: {
-      loaders: [
-        { test: /\.js$/, loader: "babel-loader" }
-      ]
-    }
-  };
+  module: {
+    loaders: [
+      { test: /\.js$/, loader: "babel-loader" }
+    ]
+  }
+};
