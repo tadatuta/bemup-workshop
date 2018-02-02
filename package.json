@@ -13,9 +13,18 @@
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^7.2.5",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
     "browser-sync": "^2.23.5",
+    "create-by-css": "github:tadatuta/bem-tools-create-by-css",
     "postcss": "^6.0.16",
     "postcss-cli": "^4.1.1",
-    "postcss-nested": "^3.0.0"
+    "postcss-nested": "^3.0.0",
+    "webpack": "^3.10.0"
+  },
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
   }
 }
