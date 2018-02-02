@@ -1,4 +1,4 @@
-.page {
+.Page {
     margin: 0;
 
     font-family: Arial, Helvetica, sans-serif;
@@ -6,12 +6,12 @@
     background: #f6f5f3;
 }
 
-.container {
+.Container {
     width: 1000px;
     margin: 0 auto;
 }
 
-.header {
+.Header {
     position: relative;
     z-index: 100;
 
@@ -20,20 +20,20 @@
     border-bottom: 1px solid #ccc;
     background: #fff;
 
-    &__inner {
+    &-Inner {
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
 }
 
-.logo {
+.Logo {
     font-size: 120%;
     text-decoration: none;
 
     color: #000;
 
-    &__icon {
+    &-Icon {
         display: inline-block;
 
         width: 50px;
@@ -46,7 +46,7 @@
     }
 }
 
-.input {
+.Input {
     width: 350px;
     height: 38px;
     padding: 0 8px;
@@ -58,7 +58,7 @@
     -webkit-appearance: none;
 }
 
-.button {
+.Button {
     padding: 0 12px;
 
     font-size: 15px;
@@ -70,19 +70,19 @@
     background: #e8e8e8;
 }
 
-.search__button {
+.Search-Button {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
 }
 
-.avatar {
+.Avatar {
     width: 40px;
     height: 40px;
 
     border-radius: 50%;
 }
 
-.nav {
+.Nav {
     position: relative;
     z-index: 10;
 
@@ -92,14 +92,14 @@
     background: #fff;
     box-shadow: 0 0 50px 10px rgba(0, 0, 0, .05);
 
-    &__list {
+    &-List {
         display: flex;
         justify-content: space-between;
 
         padding: 0;
     }
 
-    &__item {
+    &-Item {
         font-size: 13px;
         line-height: 50px;
         text-decoration: none;
@@ -112,34 +112,34 @@
     }
 }
 
-.promo {
+.Promo {
     display: flex;
     justify-content: space-between;
 
     margin-bottom: 14px;
 }
 
-.main {
+.Main {
     background: #f8f8f8;
 
-    &__inner {
+    &-Inner {
         padding: 30px 0 10px;
     }
 }
 
-.heading {
+.Heading {
     margin: 0 0 12px;
 
     font-weight: 500;
 }
 
-.goods {
+.Goods {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-.snippet {
+.Snippet {
     width: 200px;
     margin-bottom: 17px;
     padding: 17px;
@@ -150,7 +150,7 @@
     background: #fff;
     box-shadow: 0 1px 3px rgba(0,0,0,.28);
 
-    &__headline {
+    &-Headline {
         position: relative;
 
         padding-bottom: 15px;
@@ -174,11 +174,11 @@
         }
     }
 
-    &__image {
+    &-Image {
         margin-bottom: 17px;
     }
 
-    &__category {
+    &-Category {
         display: block;
 
         font-size: 11px;
@@ -192,7 +192,7 @@
         }
     }
 
-    &__title {
+    &-Title {
         display: block;
         overflow: hidden;
 
@@ -206,11 +206,11 @@
         text-decoration: none;
     }
 
-    &:hover &__title {
+    &:hover &-Title {
         color: red;
     }
 
-    &__price {
+    &-Price {
         position: relative;
 
         margin-top: 17px;
@@ -234,7 +234,7 @@
     }
 }
 
-.more {
+.More {
     display: block;
 
     width: 100%;
@@ -249,7 +249,7 @@
     -webkit-appearance: none;
 }
 
-.subscribe {
+.Subscribe {
     margin-bottom: 14px;
     padding: 14px 0;
 
@@ -258,12 +258,12 @@
     background: #e4eeff;
 }
 
-.history__list {
+.History-List {
     display: flex;
     justify-content: space-between;
 }
 
-.small-snippet {
+.SmallSnippet {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -277,11 +277,11 @@
     color: #669;
     background: #fff;
 
-    &__cell {
+    &-Cell {
         padding-left: 12px;
     }
 
-    &__price {
+    &-Price {
         display: block;
 
         font-weight: bold;
@@ -290,7 +290,7 @@
     }
 }
 
-.footer {
+.Footer {
     margin-top: 50px;
     padding: 12px 0;
 
@@ -298,13 +298,14 @@
 
     border-top: 1px solid #ccc;
 
-    &__inner {
+    &-Inner {
         display: flex;
         justify-content: space-between;
     }
 
-    .link {
-        color: #8792a8;
+    .Link {
         text-decoration: none;
+
+        color: #8792a8;
     }
 }
